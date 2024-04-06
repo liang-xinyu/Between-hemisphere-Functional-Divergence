@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GIFTI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="http://brainvis.wustl.edu/caret6/xml_schemas/GIFTI_Caret.xsd"
+       Version="1"
+       NumberOfDataArrays="1">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[AnatomicalStructurePrimary]]></Name>
+         <Value><![CDATA[CortexRight]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[ParentProvenance]]></Name>
+         <Value><![CDATA[D:\Project-HCP\HCP_Atlas\Atlas-fs_LR_10k\Yeo2011\Yeo2011_17Networks.32k_fs_LR.dlabel.nii:
+/data/apps/arch/Linux_x86_64/HCP/workbench-1.1.1/bin_rh_linux64/../exe_rh_linux64/wb_command -cifti-label-import Yeo2011_17Networks.split_components.dscalar.nii Yeo2011_17Networks.split_components_info.txt Yeo2011_17Networks.split_components.dlabel.nii
+
+]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[ProgramProvenance]]></Name>
+         <Value><![CDATA[Connectome Workbench
+Type: Command Line Application
+Version: 1.4.2
+Qt Compiled Version: 5.7.0
+Qt Runtime Version: 5.7.0
+Commit: b527c79e526a558637f37c202af18c78cd98fa22
+Commit Date: 2021-02-11 13:49:38 -0600
+Compiled with OpenMP: YES
+Compiler: cl.exe (C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/amd64)
+Compiler Version: 19.0.24215.1
+Compiled Debug: NO
+Operating System: Windows
+]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[Provenance]]></Name>
+         <Value><![CDATA[D:\Toobox\workbench\bin_windows64\wb_command.exe -cifti-separate D:\Project-HCP\HCP_Atlas\Atlas-fs_LR_10k\Yeo2011\Yeo2011_17Networks.32k_fs_LR.dlabel.nii COLUMN -label CORTEX_RIGHT D:\Project-HCP\HCP_Atlas\Atlas-fs_LR_10k\Yeo2011\Yeo2011_17Networks.R.32k_fs_LR.label.gii]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[WorkingDirectory]]></Name>
+         <Value><![CDATA[D:/Project-HCP/HCP_Atlas/Atlas-fs_LR_10k]]></Value>
+      </MD>
+   </MetaData>
+   <LabelTable>
+      <Label Key="0" Red="1" Green="1" Blue="1" Alpha="0"><![CDATA[???]]></Label>
+      <Label Key="1" Red="0.470588" Green="0.0705882" Blue="0.52549" Alpha="1"><![CDATA[17Networks_LH_VisCent_Striate]]></Label>
+      <Label Key="2" Red="0.470588" Green="0.0705882" Blue="0.529412" Alpha="1"><![CDATA[17Networks_LH_VisCent_ExStr]]></Label>
+      <Label Key="3" Red="1" Green="0" Blue="0" Alpha="1"><![CDATA[17Networks_LH_VisPeri_StriCal]]></Label>
+      <Label Key="4" Red="1" Green="0" Blue="0.00392157" Alpha="1"><![CDATA[17Networks_LH_VisPeri_ExStrInf]]></Label>
+      <Label Key="5" Red="1" Green="0.00392157" Blue="0" Alpha="1"><![CDATA[17Networks_LH_VisPeri_ExStrSup]]></Label>
+      <Label Key="6" Red="0.27451" Green="0.509804" Blue="0.705882" Alpha="1"><![CDATA[17Networks_LH_SomMotA]]></Label>
+      <Label Key="7" Red="0.164706" Green="0.8" Blue="0.643137" Alpha="1"><![CDATA[17Networks_LH_SomMotB_Cent]]></Label>
+      <Label Key="8" Red="0.164706" Green="0.8" Blue="0.647059" Alpha="1"><![CDATA[17Networks_LH_SomMotB_S2]]></Label>
+      <Label Key="9" Red="0.164706" Green="0.803922" Blue="0.647059" Alpha="1"><![CDATA[17Networks_LH_SomMotB_Ins]]></Label>
+      <Label Key="10" Red="0.168627" Green="0.8" Blue="0.643137" Alpha="1"><![CDATA[17Networks_LH_SomMotB_Aud]]></Label>
+      <Label Key="11" Red="0.290196" Green="0.607843" Blue="0.235294" Alpha="1"><![CDATA[17Networks_LH_DorsAttnA_TempOcc]]></Label>
+      <Label Key="12" Red="0.290196" Green="0.607843" Blue="0.239216" Alpha="1"><![CDATA[17Networks_LH_DorsAttnA_ParOcc]]></Label>
+      <Label Key="13" Red="0.290196" Green="0.611765" Blue="0.235294" Alpha="1"><![CDATA[17Networks_LH_DorsAttnA_SPL]]></Label>
+      <Label Key="14" Red="0" Green="0.462745" Blue="0.054902" Alpha="1"><![CDATA[17Networks_LH_DorsAttnB_TempOcc]]></Label>
+      <Label Key="15" Red="0" Green="0.462745" Blue="0.0588235" Alpha="1"><![CDATA[17Networks_LH_DorsAttnB_PostC]]></Label>
+      <Label Key="16" Red="0" Green="0.466667" Blue="0.054902" Alpha="1"><![CDATA[17Networks_LH_DorsAttnB_FEF]]></Label>
+      <Label Key="17" Red="0" Green="0.466667" Blue="0.0588235" Alpha="1"><![CDATA[17Networks_LH_DorsAttnB_PrCv]]></Label>
+      <Label Key="18" Red="0.768627" Green="0.227451" Blue="0.980392" Alpha="1"><![CDATA[17Networks_LH_SalVentAttnA_ParOper]]></Label>
+      <Label Key="19" Red="0.768627" Green="0.227451" Blue="0.984314" Alpha="1"><![CDATA[17Networks_LH_SalVentAttnA_FrOper]]></Label>
+      <Label Key="20" Red="0.768627" Green="0.231373" Blue="0.980392" Alpha="1"><![CDATA[17Networks_LH_SalVentAttnA_Ins]]></Label>
+      <Label Key="21" Red="0.768627" Green="0.231373" Blue="0.984314" Alpha="1"><![CDATA[17Networks_LH_SalVentAttnA_ParMed]]></Label>
+      <Label Key="22" Red="0.772549" Green="0.227451" Blue="0.980392" Alpha="1"><![CDATA[17Networks_LH_SalVentAttnA_FrMed]]></Label>
+      <Label Key="23" Red="1" Green="0.596078" Blue="0.835294" Alpha="1"><![CDATA[17Networks_LH_SalVentAttnB_IPL]]></Label>
+      <Label Key="24" Red="1" Green="0.596078" Blue="0.839216" Alpha="1"><![CDATA[17Networks_LH_SalVentAttnB_PFCd]]></Label>
+      <Label Key="25" Red="1" Green="0.6" Blue="0.835294" Alpha="1"><![CDATA[17Networks_LH_SalVentAttnB_PFCl]]></Label>
+      <Label Key="26" Red="1" Green="0.6" Blue="0.839216" Alpha="1"><![CDATA[17Networks_LH_SalVentAttnB_Ins]]></Label>
+      <Label Key="27" Red="1" Green="0.596078" Blue="0.831373" Alpha="1"><![CDATA[17Networks_LH_SalVentAttnB_OFC]]></Label>
+      <Label Key="28" Red="1" Green="0.592157" Blue="0.835294" Alpha="1"><![CDATA[17Networks_LH_SalVentAttnB_PFCmp]]></Label>
+      <Label Key="29" Red="0.862745" Green="0.972549" Blue="0.643137" Alpha="1"><![CDATA[17Networks_LH_LimbicA_TempPole]]></Label>
+      <Label Key="30" Red="0.478431" Green="0.529412" Blue="0.196078" Alpha="1"><![CDATA[17Networks_LH_LimbicB_OFC]]></Label>
+      <Label Key="31" Red="0.901961" Green="0.580392" Blue="0.133333" Alpha="1"><![CDATA[17Networks_LH_ContA_Temp]]></Label>
+      <Label Key="32" Red="0.901961" Green="0.580392" Blue="0.137255" Alpha="1"><![CDATA[17Networks_LH_ContA_IPS]]></Label>
+      <Label Key="33" Red="0.901961" Green="0.584314" Blue="0.133333" Alpha="1"><![CDATA[17Networks_LH_ContA_PFCd]]></Label>
+      <Label Key="34" Red="0.901961" Green="0.584314" Blue="0.137255" Alpha="1"><![CDATA[17Networks_LH_ContA_PFCl]]></Label>
+      <Label Key="35" Red="0.905882" Green="0.580392" Blue="0.133333" Alpha="1"><![CDATA[17Networks_LH_ContA_PFClv]]></Label>
+      <Label Key="36" Red="0.905882" Green="0.580392" Blue="0.137255" Alpha="1"><![CDATA[17Networks_LH_ContA_Cingm]]></Label>
+      <Label Key="37" Red="0.529412" Green="0.196078" Blue="0.290196" Alpha="1"><![CDATA[17Networks_LH_ContB_Temp]]></Label>
+      <Label Key="38" Red="0.529412" Green="0.196078" Blue="0.294118" Alpha="1"><![CDATA[17Networks_LH_ContB_IPL]]></Label>
+      <Label Key="39" Red="0.529412" Green="0.2" Blue="0.290196" Alpha="1"><![CDATA[17Networks_LH_ContB_PFCd]]></Label>
+      <Label Key="40" Red="0.529412" Green="0.2" Blue="0.294118" Alpha="1"><![CDATA[17Networks_LH_ContB_PFCl]]></Label>
+      <Label Key="41" Red="0.533333" Green="0.196078" Blue="0.290196" Alpha="1"><![CDATA[17Networks_LH_ContB_PFClv]]></Label>
+      <Label Key="42" Red="0.533333" Green="0.196078" Blue="0.294118" Alpha="1"><![CDATA[17Networks_LH_ContB_PFCmp]]></Label>
+      <Label Key="43" Red="0.466667" Green="0.54902" Blue="0.690196" Alpha="1"><![CDATA[17Networks_LH_ContC_pCun]]></Label>
+      <Label Key="44" Red="0.466667" Green="0.54902" Blue="0.694118" Alpha="1"><![CDATA[17Networks_LH_ContC_Cingp]]></Label>
+      <Label Key="45" Red="1" Green="1" Blue="0" Alpha="1"><![CDATA[17Networks_LH_DefaultA_IPL]]></Label>
+      <Label Key="46" Red="1" Green="1" Blue="0.00392157" Alpha="1"><![CDATA[17Networks_LH_DefaultA_PFCd]]></Label>
+      <Label Key="47" Red="1" Green="0.996078" Blue="0" Alpha="1"><![CDATA[17Networks_LH_DefaultA_pCunPCC]]></Label>
+      <Label Key="48" Red="0.996078" Green="1" Blue="0" Alpha="1"><![CDATA[17Networks_LH_DefaultA_PFCm]]></Label>
+      <Label Key="49" Red="0.803922" Green="0.243137" Blue="0.305882" Alpha="1"><![CDATA[17Networks_LH_DefaultB_Temp]]></Label>
+      <Label Key="50" Red="0.803922" Green="0.243137" Blue="0.309804" Alpha="1"><![CDATA[17Networks_LH_DefaultB_IPL]]></Label>
+      <Label Key="51" Red="0.803922" Green="0.247059" Blue="0.305882" Alpha="1"><![CDATA[17Networks_LH_DefaultB_PFCd]]></Label>
+      <Label Key="52" Red="0.803922" Green="0.247059" Blue="0.309804" Alpha="1"><![CDATA[17Networks_LH_DefaultB_PFCl]]></Label>
+      <Label Key="53" Red="0.807843" Green="0.243137" Blue="0.305882" Alpha="1"><![CDATA[17Networks_LH_DefaultB_PFCv]]></Label>
+      <Label Key="54" Red="0" Green="0" Blue="0.509804" Alpha="1"><![CDATA[17Networks_LH_DefaultC_IPL]]></Label>
+      <Label Key="55" Red="0" Green="0" Blue="0.513726" Alpha="1"><![CDATA[17Networks_LH_DefaultC_Rsp]]></Label>
+      <Label Key="56" Red="0" Green="0.00392157" Blue="0.509804" Alpha="1"><![CDATA[17Networks_LH_DefaultC_PHC]]></Label>
+      <Label Key="57" Red="0.0470588" Green="0.188235" Blue="1" Alpha="1"><![CDATA[17Networks_LH_TempPar]]></Label>
+      <Label Key="58" Red="0.470588" Green="0.0745098" Blue="0.52549" Alpha="1"><![CDATA[17Networks_RH_VisCent_Striate]]></Label>
+      <Label Key="59" Red="0.470588" Green="0.0745098" Blue="0.529412" Alpha="1"><![CDATA[17Networks_RH_VisCent_ExStr]]></Label>
+      <Label Key="60" Red="1" Green="0.00392157" Blue="0.00392157" Alpha="1"><![CDATA[17Networks_RH_VisPeri_StriCal]]></Label>
+      <Label Key="61" Red="0.996078" Green="0" Blue="0" Alpha="1"><![CDATA[17Networks_RH_VisPeri_ExStrInf]]></Label>
+      <Label Key="62" Red="0.996078" Green="0" Blue="0.00392157" Alpha="1"><![CDATA[17Networks_RH_VisPeri_ExStrSup]]></Label>
+      <Label Key="63" Red="0.27451" Green="0.513726" Blue="0.709804" Alpha="1"><![CDATA[17Networks_RH_SomMotA]]></Label>
+      <Label Key="64" Red="0.168627" Green="0.8" Blue="0.647059" Alpha="1"><![CDATA[17Networks_RH_SomMotB_Cent]]></Label>
+      <Label Key="65" Red="0.168627" Green="0.803922" Blue="0.643137" Alpha="1"><![CDATA[17Networks_RH_SomMotB_S2]]></Label>
+      <Label Key="66" Red="0.168627" Green="0.803922" Blue="0.647059" Alpha="1"><![CDATA[17Networks_RH_SomMotB_Ins]]></Label>
+      <Label Key="67" Red="0.164706" Green="0.8" Blue="0.639216" Alpha="1"><![CDATA[17Networks_RH_SomMotB_Aud]]></Label>
+      <Label Key="68" Red="0.290196" Green="0.611765" Blue="0.239216" Alpha="1"><![CDATA[17Networks_RH_DorsAttnA_TempOcc]]></Label>
+      <Label Key="69" Red="0.294118" Green="0.607843" Blue="0.235294" Alpha="1"><![CDATA[17Networks_RH_DorsAttnA_ParOcc]]></Label>
+      <Label Key="70" Red="0.294118" Green="0.607843" Blue="0.239216" Alpha="1"><![CDATA[17Networks_RH_DorsAttnA_SPL]]></Label>
+      <Label Key="71" Red="0.00392157" Green="0.462745" Blue="0.054902" Alpha="1"><![CDATA[17Networks_RH_DorsAttnB_TempOcc]]></Label>
+      <Label Key="72" Red="0.00392157" Green="0.462745" Blue="0.0588235" Alpha="1"><![CDATA[17Networks_RH_DorsAttnB_PostC]]></Label>
+      <Label Key="73" Red="0.00392157" Green="0.466667" Blue="0.054902" Alpha="1"><![CDATA[17Networks_RH_DorsAttnB_FEF]]></Label>
+      <Label Key="74" Red="0.00392157" Green="0.466667" Blue="0.0588235" Alpha="1"><![CDATA[17Networks_RH_DorsAttnB_PrCv]]></Label>
+      <Label Key="75" Red="0.768627" Green="0.227451" Blue="0.976471" Alpha="1"><![CDATA[17Networks_RH_SalVentAttnA_ParOper]]></Label>
+      <Label Key="76" Red="0.768627" Green="0.223529" Blue="0.980392" Alpha="1"><![CDATA[17Networks_RH_SalVentAttnA_PrC]]></Label>
+      <Label Key="77" Red="0.768627" Green="0.223529" Blue="0.976471" Alpha="1"><![CDATA[17Networks_RH_SalVentAttnA_FrOper]]></Label>
+      <Label Key="78" Red="0.764706" Green="0.227451" Blue="0.980392" Alpha="1"><![CDATA[17Networks_RH_SalVentAttnA_Ins]]></Label>
+      <Label Key="79" Red="0.764706" Green="0.227451" Blue="0.976471" Alpha="1"><![CDATA[17Networks_RH_SalVentAttnA_ParMed]]></Label>
+      <Label Key="80" Red="0.764706" Green="0.223529" Blue="0.980392" Alpha="1"><![CDATA[17Networks_RH_SalVentAttnA_FrMed]]></Label>
+      <Label Key="81" Red="0.996078" Green="0.596078" Blue="0.835294" Alpha="1"><![CDATA[17Networks_RH_SalVentAttnB_IPL]]></Label>
+      <Label Key="82" Red="0.996078" Green="0.596078" Blue="0.831373" Alpha="1"><![CDATA[17Networks_RH_SalVentAttnB_PFCd]]></Label>
+      <Label Key="83" Red="0.996078" Green="0.592157" Blue="0.835294" Alpha="1"><![CDATA[17Networks_RH_SalVentAttnB_PFCl]]></Label>
+      <Label Key="84" Red="0.996078" Green="0.592157" Blue="0.831373" Alpha="1"><![CDATA[17Networks_RH_SalVentAttnB_PFClv]]></Label>
+      <Label Key="85" Red="0.996078" Green="0.596078" Blue="0.839216" Alpha="1"><![CDATA[17Networks_RH_SalVentAttnB_Ins]]></Label>
+      <Label Key="86" Red="0.996078" Green="0.6" Blue="0.835294" Alpha="1"><![CDATA[17Networks_RH_SalVentAttnB_PFCmp]]></Label>
+      <Label Key="87" Red="1" Green="0.592157" Blue="0.831373" Alpha="1"><![CDATA[17Networks_RH_SalVentAttnB_Cinga]]></Label>
+      <Label Key="88" Red="0.862745" Green="0.972549" Blue="0.647059" Alpha="1"><![CDATA[17Networks_RH_LimbicA_TempPole]]></Label>
+      <Label Key="89" Red="0.478431" Green="0.529412" Blue="0.2" Alpha="1"><![CDATA[17Networks_RH_LimbicB_OFC]]></Label>
+      <Label Key="90" Red="0.901961" Green="0.580392" Blue="0.129412" Alpha="1"><![CDATA[17Networks_RH_ContA_Temp]]></Label>
+      <Label Key="91" Red="0.901961" Green="0.576471" Blue="0.133333" Alpha="1"><![CDATA[17Networks_RH_ContA_IPS]]></Label>
+      <Label Key="92" Red="0.901961" Green="0.576471" Blue="0.129412" Alpha="1"><![CDATA[17Networks_RH_ContA_PFCd]]></Label>
+      <Label Key="93" Red="0.898039" Green="0.580392" Blue="0.133333" Alpha="1"><![CDATA[17Networks_RH_ContA_PFCl]]></Label>
+      <Label Key="94" Red="0.898039" Green="0.580392" Blue="0.129412" Alpha="1"><![CDATA[17Networks_RH_ContA_Cingm]]></Label>
+      <Label Key="95" Red="0.533333" Green="0.2" Blue="0.294118" Alpha="1"><![CDATA[17Networks_RH_ContB_Temp]]></Label>
+      <Label Key="96" Red="0.529412" Green="0.196078" Blue="0.286275" Alpha="1"><![CDATA[17Networks_RH_ContB_IPL]]></Label>
+      <Label Key="97" Red="0.529412" Green="0.192157" Blue="0.290196" Alpha="1"><![CDATA[17Networks_RH_ContB_PFCld]]></Label>
+      <Label Key="98" Red="0.529412" Green="0.192157" Blue="0.286275" Alpha="1"><![CDATA[17Networks_RH_ContB_PFClv]]></Label>
+      <Label Key="99" Red="0.52549" Green="0.196078" Blue="0.290196" Alpha="1"><![CDATA[17Networks_RH_ContB_PFCmp]]></Label>
+      <Label Key="100" Red="0.466667" Green="0.552941" Blue="0.690196" Alpha="1"><![CDATA[17Networks_RH_ContC_pCun]]></Label>
+      <Label Key="101" Red="0.466667" Green="0.552941" Blue="0.694118" Alpha="1"><![CDATA[17Networks_RH_ContC_Cingp]]></Label>
+      <Label Key="102" Red="0.996078" Green="1" Blue="0.00392157" Alpha="1"><![CDATA[17Networks_RH_DefaultA_Temp]]></Label>
+      <Label Key="103" Red="1" Green="0.996078" Blue="0.00392157" Alpha="1"><![CDATA[17Networks_RH_DefaultA_IPL]]></Label>
+      <Label Key="104" Red="1" Green="1" Blue="0.00784314" Alpha="1"><![CDATA[17Networks_RH_DefaultA_PFCd]]></Label>
+      <Label Key="105" Red="1" Green="0.992157" Blue="0" Alpha="1"><![CDATA[17Networks_RH_DefaultA_pCunPCC]]></Label>
+      <Label Key="106" Red="0.992157" Green="1" Blue="0" Alpha="1"><![CDATA[17Networks_RH_DefaultA_PFCm]]></Label>
+      <Label Key="107" Red="0.807843" Green="0.243137" Blue="0.309804" Alpha="1"><![CDATA[17Networks_RH_DefaultB_Temp]]></Label>
+      <Label Key="108" Red="0.807843" Green="0.247059" Blue="0.305882" Alpha="1"><![CDATA[17Networks_RH_DefaultB_AntTemp]]></Label>
+      <Label Key="109" Red="0.807843" Green="0.247059" Blue="0.309804" Alpha="1"><![CDATA[17Networks_RH_DefaultB_PFCd]]></Label>
+      <Label Key="110" Red="0.803922" Green="0.243137" Blue="0.301961" Alpha="1"><![CDATA[17Networks_RH_DefaultB_PFCv]]></Label>
+      <Label Key="111" Red="0" Green="0.00392157" Blue="0.513726" Alpha="1"><![CDATA[17Networks_RH_DefaultC_IPL]]></Label>
+      <Label Key="112" Red="0.00392157" Green="0" Blue="0.509804" Alpha="1"><![CDATA[17Networks_RH_DefaultC_Rsp]]></Label>
+      <Label Key="113" Red="0.00392157" Green="0" Blue="0.513726" Alpha="1"><![CDATA[17Networks_RH_DefaultC_PHC]]></Label>
+      <Label Key="114" Red="0.0470588" Green="0.188235" Blue="0.996078" Alpha="1"><![CDATA[17Networks_RH_TempPar]]></Label>
+   </LabelTable>
+<DataArray Intent="NIFTI_INTENT_LABEL"
+           DataType="NIFTI_TYPE_INT32"
+           ArrayIndexingOrder="RowMajorOrder"
+           Dimensionality="1"
+           Dim0="32492"
+           Encoding="GZipBase64Binary"
+           Endian="LittleEndian"
+           ExternalFileName=""
+           ExternalFileOffset="0">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[Name]]></Name>
+         <Value><![CDATA[parcels]]></Value>
+      </MD>
+   </MetaData>
+   <Data>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</Data>
+</DataArray>
+</GIFTI>
