@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GIFTI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="http://brainvis.wustl.edu/caret6/xml_schemas/GIFTI_Caret.xsd"
+       Version="1"
+       NumberOfDataArrays="1">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[AnatomicalStructurePrimary]]></Name>
+         <Value><![CDATA[CortexRight]]></Value>
+      </MD>
+   </MetaData>
+   <LabelTable>
+      <Label Key="0" Red="1" Green="1" Blue="1" Alpha="0"><![CDATA[???]]></Label>
+   </LabelTable>
+<DataArray Intent="NIFTI_INTENT_NONE"
+           DataType="NIFTI_TYPE_FLOAT32"
+           ArrayIndexingOrder="RowMajorOrder"
+           Dimensionality="1"
+           Dim0="10242"
+           Encoding="GZipBase64Binary"
+           Endian="LittleEndian"
+           ExternalFileName=""
+           ExternalFileOffset="0">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[Name]]></Name>
+         <Value><![CDATA[#1]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[PaletteColorMapping]]></Name>
+         <Value><![CDATA[<PaletteColorMapping Version="1">
+   <ScaleMode>MODE_AUTO_SCALE_ABSOLUTE_PERCENTAGE</ScaleMode>
+   <AutoScalePercentageValues>98.000000 2.000000 2.000000 98.000000</AutoScalePercentageValues>
+   <AutoScaleAbsolutePercentageValues>2.000000 98.000000</AutoScaleAbsolutePercentageValues>
+   <UserScaleValues>-100.000000 0.000000 0.000000 100.000000</UserScaleValues>
+   <PaletteName>ROY-BIG-BL</PaletteName>
+   <InterpolatePalette>true</InterpolatePalette>
+   <InvertPalette>OFF</InvertPalette>
+   <DisplayPositiveData>true</DisplayPositiveData>
+   <DisplayZeroData>false</DisplayZeroData>
+   <DisplayNegativeData>true</DisplayNegativeData>
+   <ThresholdTest>THRESHOLD_TEST_SHOW_OUTSIDE</ThresholdTest>
+   <ThresholdType>THRESHOLD_TYPE_OFF</ThresholdType>
+   <ThresholdFailureInGreen>false</ThresholdFailureInGreen>
+   <ThresholdNormalValues>-1.000000 1.000000</ThresholdNormalValues>
+   <ThresholdMappedValues>-1.000000 1.000000</ThresholdMappedValues>
+   <ThresholdMappedAvgAreaValues>-1.000000 1.000000</ThresholdMappedAvgAreaValues>
+   <ThresholdDataName></ThresholdDataName>
+   <ThresholdRangeMode>PALETTE_THRESHOLD_RANGE_MODE_FILE</ThresholdRangeMode>
+   <ThresholdLowHighLinked>false</ThresholdLowHighLinked>
+   <ThresholdOutlineDrawingMode>OFF</ThresholdOutlineDrawingMode>
+   <ThresholdOutlineDrawingColor>WHITE</ThresholdOutlineDrawingColor>
+   <HistogramRangeMode>PALETTE_HISTOGRAM_RANGE_ALL</HistogramRangeMode>
+   <HistogramBarsVisible>true</HistogramBarsVisible>
+   <HistogramEnvelopeVisible>false</HistogramEnvelopeVisible>
+   <HistogramBarsColor>CUSTOM</HistogramBarsColor>
+   <HistogramEnvelopeColor>RED</HistogramEnvelopeColor>
+   <HistogramEnvelopeLineWidthPercentage>0.5</HistogramEnvelopeLineWidthPercentage>
+   <HistogramNumberOfBuckets>100</HistogramNumberOfBuckets>
+   <NumericFormatMode>AUTO</NumericFormatMode>
+   <PrecisionDigits>2</PrecisionDigits>
+   <NumericSubivisions>0</NumericSubivisions>
+   <ColorBarValuesMode>DATA</ColorBarValuesMode>
+   <ShowTickMarksSelected>false</ShowTickMarksSelected>
+</PaletteColorMapping>
+]]></Value>
+      </MD>
+   </MetaData>
+   <Data>eJztmg1uwyAMRnuzXW1Hn6apWhVBYvyDwbwnVWrTYENCMPns1+uX76/XkfyO+z32z+/v37N8t34DaKkyj6qMw4r3dfC052XLw47VhmUNfrf9/Iy2+Tz+1O7a37s2rf96xyS+JWMcjaVPdqXHWTMAAABgBqvvOSL657Vfn33tRn2ufm93YcZ13P1eRfZ/1TWgZdNzXfCy5WHHOjZrH9CY59PLL5yARhOL7EsVnzPH8nTvVtame/az4uxu8T2S3fqrZYW8htVGT1+/W99bufW7PMRILiM7lswiOnZK8zLatlqy7nGU36yYUAmuU024r6BltNai9d3i22JvtE2VWNiy39v7oRfo7Wjml4e+GXm+ta0m72PRaj37c3e+57zp2fOcG1dbnvPAw9aTDel+Xvre++Rr5P1B+9xHzXP2dzDCafPltPECAABUZGbeYgWtJGOss8jQ3Kr5mqEpeb67tvTIKF1Lo0d5sbo9K6v1B3zR6LOtGhWJD+l/PS2td8xKxDojtTc7Vo34tGrAmrobSwzSxBpt/sOa19D4AgDYnVZsYI2D3ZlR6wN/RLwHeOKl13jYsa6zHrUNGW0rEVk/NYPsflTX9QEAZiDVf3dc+1pjG9G7rxrkU82qxP6o3r4zlceWTUauIdJ+NBXmYoUxAMA/p+wFAAAAoD6Ze5nWnooahT4ZNf2V9AsAsONRW5BZEyFpPxqHpOdqznv/HunfU26jdbzVLlv3IB4AAMCV0f2AJf5bzpPUlUraS87v1VLc+c0iK58c7fduLxbta2c/aD7xRFzbqHu2g030SoimogY743nJfB53Ww8i1/Co9bFl09NH5N5xt/kBcDpZ+jdrBAAAAAAAAMA5ZOXLd7EfZXuXPCTAefwASfdcfQ==</Data>
+</DataArray>
+</GIFTI>
