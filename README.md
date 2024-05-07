@@ -1,7 +1,7 @@
 # Between-hemisphere-Functional-Divergence
 The data and codes utilized in "Functional divergence between the two cerebral hemispheres contributes to human fluid intelligence". See Liang, et al. 2024 BioRxiv for details.
 
-The additional data will be available at OSF soon.
+The calculated data is available at OSF (https://osf.io/pvdjq/).
 
 # Dependencies: These should be installed to use this code
 MATLAB www.mathworks.com (tested on 2021b)
