@@ -10,8 +10,12 @@ MATLAB www.mathworks.com (tested on 2021b)
 
 MATLAB statistics toolbox
 
+Gifti toolbox (https://github.com/gllmflndn/gifti)
+
 BrainSpace toolbox (https://github.com/MICA-MNI/BrainSpace)
 
 BrainStat toolbox (https://github.com/MICA-MNI/BrainStat)
 
-CANlab CanlabCore repositories (https://github.com/canlab)
+Mediation_toolbox repositories (https://github.com/canlab/MediationToolbox)
+
+Connectome Workbench (https://www.humanconnectome.org/software/get-connectome-workbench) for cortical map visualization and data processing
